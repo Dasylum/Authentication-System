@@ -1,23 +1,25 @@
-ul {
-  list-style-type: none;
-  background-color: #F0F0F0 ;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
 
-.content-div {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: center;
-}
 
-.content {
-  display: block;
-  padding: auto;
+/* Create two equal columns that sits next to each other */
+
+.row {
   text-align: center;
-  min-width: 500px;
+  padding-top: 50px;
+}
+
+.row div {
+  padding-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+}
+
+.caption {
+  display: block;
+  padding-bottom: 50px;
 }
 
 li a {
@@ -31,4 +33,8 @@ li a {
 li a:hover {
   text-decoration: bold;
   background-color: lightgrey;
+}
+
+.right-content {
+  padding-left: 10px;
 }
